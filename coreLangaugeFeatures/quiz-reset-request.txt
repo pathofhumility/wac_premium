@@ -1,0 +1,53 @@
+email@watchandcode.com
+
+Hello Gordon, Arielle,
+Before we get to the quiz reset request I'm hoping to share some thoughts about my experiences with the quizzes
+to this point and solicit your insights and ask you to provide some guidance.
+
+Regarding preparation for the quizzes, the following is from section 4. Quizzes, in the Orientation of the Premium
+Content: "They're designed such that a student carefully going through the material should get 100% of the questions right."
+
+I'm not feeling that level of preparedness at all, and I'm not sure why. I enrolled in Premium on October 29 after completing
+Practical JavaScript. As you know, that course was replaced on November 2 and access to Practical JS was lost. I have found
+that to be somewhat disruptive. Programming Foundations is similar, but as an example, I couldn't find a reference to Gordon's
+"this" cheatsheet in Programming Foundations. (That didn't help my performance on this quiz.)
+
+I am concurrently going through Programming Foundations and the Premium Content, but have decided to stop working
+Premium and focus solely on Programming Foundations. As I'm sure you can imagine this is frustrating as a consumer.
+It was my hope that beginning the paid Premium membership I would be focusing on that and using Practical JS as a
+reference. I think if I would have known that Programming Foundations was coming online only a few days after starting
+my Premium subscription, and that it would be useful to complete or review PF before starting Premium, I would have
+happily delayed my subscription a couple weeks and done Programming Foundations after completing Practical JS.
+
+Thanks for listening. Any thoughts?
+
+1. Please provide URL to failed quiz.
+
+https://watchandcode.com/courses/77710/lectures/24736743
+
+2. What was your answer and why was it wrong?
+
+My answer was:
+a. True 100%
+b. Evidence: When the debugger is paused at line 2, and the cursor is hovered over `this`, a box appears
+   with PersonMakerA as the title and __proto__: object listed in the box.
+
+3. The reason(s) that you were drawn to the incorrect answer.
+
+As stated in #2, it appears to me that the `this` in question is referencing PersonMakerA.
+
+4. Specific steps you will take to prevent this from happening again.
+
+Admittedly, I'm still confused by this question and am unsure why my answer is wrong. I'm hoping that
+in the next segment I will gain a better understanding of what I don't currently understand.
+
+At this point there are a number of different thoughts I have as to what I'm missing:
+1. Is it the semantics of the question? Example: "equal" vs "reference".
+2. Is it an issue of equivalency between a function and an object? Example: Is the the function similar
+to a class declaration and is the question asking is a class the same as an object?
+3. Do I not have an understanding of what the debugger is showing me? (This is the most probable to me.)
+4. Do I just not have a clue what is going on here.
+5. Late Breaking! I did find Gordon's cheatsheet. `this` is referencing the created object. I'm now
+   assuming the question is asking if `this` is referencting the function PersonMakerA(). That would
+   be false based on this new info. I also believe I now have a better understanding of what the
+   debugger is showing me.
