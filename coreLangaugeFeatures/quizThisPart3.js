@@ -1,6 +1,3 @@
-// Quiz: this, part 3
-// https://watchandcode.com/courses/77710/lectures/24736743
-
 function PersonMakerA(name) {
   this.name = name;
 }
@@ -16,6 +13,9 @@ function personMakerC(name) {
 var person1 = new PersonMakerA('person 1');
 var person2 = personMakerB('person 2');
 var person3 = personMakerC('person 3');
+
+// Quiz: this, part 3
+// https://watchandcode.com/courses/77710/lectures/24736743
 
 // Which of the following statements are true?
 //
